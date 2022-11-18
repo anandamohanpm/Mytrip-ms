@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hotel {
     @GetMapping("/myHotel")
     public String getData(){
-        return "Please book your Hotel here";
+        return "Please book your Hotel here, Thank you";
     }
 
 }
